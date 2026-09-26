@@ -15,7 +15,12 @@ Some features require a configured HuddleUp service and may not be available in 
 
 ## Get the Android app
 
-The Android application ID is `com.huddleup.app`. When a release is available, download the APK from this repository's [Releases](https://github.com/IRNCyber/HuddleUp-apk/releases) page. This repository does not currently contain a published release APK.
+The Android application ID is `com.huddleup.app`.
+
+- [Download Huddle.apk directly](https://github.com/IRNCyber/HuddleUp-apk/raw/refs/heads/main/downloads/Huddle.apk) (version 1.0.0, test build)
+- See [GitHub Releases](https://github.com/IRNCyber/HuddleUp-apk/releases) for release history.
+
+**Signing note:** This APK is signed with the Android debug certificate. It is a test build, not a production-signed release. A future production-signed build may not install as an update over it; you may need to uninstall the test build first.
 
 To install an APK downloaded from GitHub, open it on your Android device and follow Android's prompts to allow installation from the app you used to download it. Only install a release you trust. Android may show an additional confirmation before installation.
 
